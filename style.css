@@ -37,6 +37,11 @@ nav a {
     text-decoration: none;
     margin: 0 1rem;
     font-weight: 600;
+    font-size: 20px;
+}
+
+.bx.bxs-phone-call.bx-tada {
+    margin-top: 50%;
 }
 
 .contact-info a i {
@@ -409,4 +414,56 @@ footer {
 
 .contact-info p {
     margin: 0;
+}
+
+@media screen and (max-width: 967px) {
+  /* Mobile-specific styles */
+  body {
+      font-size: 16px; /* Adjust font size for better readability on mobile */
+  }
+
+  header {
+      margin-top: 20%; /* Reduce margin on mobile */
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  nav {
+      padding: 0.5rem; /* Reduce padding on mobile */
+  }
+
+  nav a {
+      margin: 0.5rem 1rem; /* Add some spacing for mobile navigation links */
+      font-size: 15px;
+  }
+
+  /* Adjust other styles as needed for mobile devices */
+}
+
+@media screen and (max-width : 652px) {
+    header img {
+        margin-top: 40%;
+    }
+    nav {
+        height: 25%;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    .inf .contact-info {
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width : 408px ){
+    .inf .contact-info {
+        margin-top: 70%;
+    }
+}
+
+@media screen and (max-width : 402px ){
+    .calln .call-now {
+        margin-bottom: 60%;
+    }
 }
