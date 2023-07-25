@@ -65,13 +65,15 @@ nav a {
 nav a:hover {
     color: #007BFF;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 9px;
+    border: 2px solid #00cfdd;
 }
 
 
 .cta a:hover {
-    color: #ff0000;
-    background-color: #9c9c9c;
+    color: #0e03da;
+    background-color: #ebeaea;
+    border: 3px solid #0994ac;
     border-radius: 10px;
 }
 
@@ -310,6 +312,17 @@ footer {
 .hero {
     text-align: center;
     margin-bottom: 3rem;
+    width: 100%;
+    border: 2px solid #0994ac;
+}
+
+.hero2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 60%;
+    border: 2px solid #0994ac;
+    margin-left: 20%;
+    font-size: 20px;
 }
 
 .hero h1 {
@@ -342,15 +355,17 @@ footer {
 .cta {
     text-align: center;
     margin-bottom: 3rem;
+    
 }
 
 .cta a {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: rgb(22, 99, 255);
+    color: #ffffff;
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 14px;
     font-size: 1.2rem;
+    border: 3px solid #ce0000;
 }
 
 #map {
@@ -448,7 +463,30 @@ footer {
   /* Adjust other styles as needed for mobile devices */
 }
 
-@media screen and (max-width : 652px) {
+.gachchan {
+    border-bottom: 4px solid  rgb(5, 0, 153);
+    width: 50%;
+}
+
+.nd1 {
+    font-size: 19px;
+}
+
+.gachchan2 {
+    width: 80%;
+    border-bottom: 4px solid #4900e6;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.gachchan3 {
+    width: 60%;
+    border-bottom: 4px solid #4900e6;
+    text-align: center;
+    margin-left: 17%;
+}
+
+@media screen and (max-width : 1200px) {
     header img {
         margin-top: 40%;
     }
@@ -462,14 +500,78 @@ footer {
         margin-top: 32%;
     }
 }
-@media screen and (max-width : 408px ){
+@media screen and (max-width : 456px ){
     .inf .contact-info {
-        margin-top: 82%;
+        margin-top: 70%;
     }
 }
 
-@media screen and (max-width : 402px ){
-    .calln .call-now {
-        margin-bottom: 80%;
+@media screen and (max-width : 346px ){
+    .inf .contact-info {
+        margin-top: 110%;
     }
+}
+
+@media screen and (max-width : 4236px ){
+    .inf .contact-info {
+        margin-top: 90%;
+    }
+}
+
+
+@media screen and (max-width : 456px ){
+    .calln .call-now {
+        margin-bottom: 60%;
+    }
+}
+
+/* Định dạng cho khung đánh giá */
+.testimonial {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Định dạng cho hình đại diện */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Định dạng cho nội dung đánh giá */
+.testimonial-content {
+  flex: 1;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+
+  .testimonial-author {
+    font-size: 14px;
+  }
 }
