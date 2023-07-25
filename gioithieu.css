@@ -41,12 +41,12 @@ footer p {
 }
 @media screen and (max-width: 642px){
     header {
-        margin-top: 40%;
+        margin-top: 60%;
     }
 }
 
-@media screen and (max-width:395px){
+@media screen and (max-width:330px){
     header {
-        margin-top: 60%;
+        margin-top: 80%;
     }
 }
