@@ -459,17 +459,17 @@ footer {
         font-size: 20px;
     }
     .inf .contact-info {
-        margin-top: 30%;
+        margin-top: 32%;
     }
 }
 @media screen and (max-width : 408px ){
     .inf .contact-info {
-        margin-top: 80%;
+        margin-top: 82%;
     }
 }
 
 @media screen and (max-width : 402px ){
     .calln .call-now {
-        margin-bottom: 70%;
+        margin-bottom: 80%;
     }
 }
